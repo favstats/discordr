@@ -1,0 +1,24 @@
+Package: discordr
+Title: Discord Bot in R
+Version: 0.0.1.9001
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    httr,
+    R6,
+    bitops,
+    websocket,
+    jsonlite,
+    later,
+    logging,
+    magrittr,
+    purrr,
+    methods
+Suggests: 
+    testthat (>= 3.0.0)
